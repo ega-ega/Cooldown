@@ -1,0 +1,20 @@
+{
+  "name": "com.egaega.unitycooldown",
+  "version": "0.5.0",
+  "displayName": "UnityCooldown",
+  "description": "A versatile and efficient cooldown timer system for Unity games. This library provides easy-to-use functionality for implementing cooldown mechanics in any Unity-based game, from simple ability timers to complex multi-stage cooldowns.",
+  "unity": "2022.3",
+  "keywords": [
+    "cooldown",
+    "timer",
+    "unity",
+    "game",
+    "ability"
+  ],
+  "author": {
+    "name": "Egor Shaldov",
+    "email": "egor.shaldov@gmail.com"
+  },
+  "dependencies": {},
+  "license": "MIT"
+}

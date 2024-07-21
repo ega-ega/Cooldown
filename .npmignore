@@ -1,0 +1,32 @@
+# Ignore all files and folders in the root of the project
+/*
+
+# But do not ignore these files and folders
+!/package.json
+!/LICENSE
+!/README.md
+!/.npmignore
+
+# Do not ignore the Cooldown folder inside UnityCooldown/Assets
+!/UnityCooldown/Assets/Cooldown
+!/UnityCooldown/Assets/Cooldown.meta
+
+# Ignore files and folders inside Cooldown
+/UnityCooldown/Assets/Cooldown/*
+
+# But do not ignore Runtime, Editor, and necessary .meta files
+!/UnityCooldown/Assets/Cooldown/Runtime
+!/UnityCooldown/Assets/Cooldown/Runtime.meta
+!/UnityCooldown/Assets/Cooldown/Editor
+!/UnityCooldown/Assets/Cooldown/Editor.meta
+
+# Ignore test files and folders
+/UnityCooldown/Assets/Cooldown/Tests
+/UnityCooldown/Assets/Cooldown/Tests.meta
+
+# Ignore temporary and system files
+.DS_Store
+.vs
+.vscode
+*.tmp
+*.bak
