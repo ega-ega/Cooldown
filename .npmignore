@@ -8,21 +8,21 @@
 !/.npmignore
 
 # Do not ignore the Cooldown folder inside UnityCooldown/Assets
-!/UnityCooldown/Assets/Cooldown
-!/UnityCooldown/Assets/Cooldown.meta
+!/UnityCooldown/Assets/CooldownPlugin
+!/UnityCooldown/Assets/CooldownPlugin.meta
 
 # Ignore files and folders inside Cooldown
-/UnityCooldown/Assets/Cooldown/*
+/UnityCooldown/Assets/CooldownPlugin/*
 
 # But do not ignore Runtime, Editor, and necessary .meta files
-!/UnityCooldown/Assets/Cooldown/Runtime
-!/UnityCooldown/Assets/Cooldown/Runtime.meta
-!/UnityCooldown/Assets/Cooldown/Editor
-!/UnityCooldown/Assets/Cooldown/Editor.meta
+!/UnityCooldown/Assets/CooldownPlugin/Runtime
+!/UnityCooldown/Assets/CooldownPlugin/Runtime.meta
+!/UnityCooldown/Assets/CooldownPlugin/Editor
+!/UnityCooldown/Assets/CooldownPlugin/Editor.meta
 
 # Ignore test files and folders
-/UnityCooldown/Assets/Cooldown/Tests
-/UnityCooldown/Assets/Cooldown/Tests.meta
+/UnityCooldown/Assets/CooldownPlugin/Tests
+/UnityCooldown/Assets/CooldownPlugin/Tests.meta
 
 # Ignore temporary and system files
 .DS_Store
